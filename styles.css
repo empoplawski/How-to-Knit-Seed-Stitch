@@ -1,3 +1,37 @@
 body {
-	background:blue;
+	background: palevioletred;
+}
+h1 { 
+	border: 5px;
+	border-style: solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: Helvetica;
+}
+h3 {
+	margin-left: 100px;
+	margin-right: 100px;
+	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png)
+}
+div {
+	text-align: center;
+}
+
+.text {
+	font-family: courier;
+	font-weight: 500;
+}
+
+#list {
+	font-family: cursive;
+}
+
+a.link:visited {
+	color: orange;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background: lightblue;
+  }
 }
